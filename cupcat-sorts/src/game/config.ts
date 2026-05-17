@@ -7,12 +7,10 @@ import { GameOverScene } from './scenes/GameOverScene'
 export function buildConfig(): Omit<Phaser.Types.Core.GameConfig, 'parent'> {
   return {
     type: Phaser.AUTO,
-    width: 480,
-    height: 640,
     backgroundColor: '#0d0d1a',
     scene: [MenuScene, GameScene, WinScene, GameOverScene],
     scale: {
-      mode: Phaser.Scale.FIT,
+      mode: Phaser.Scale.RESIZE,
       autoCenter: Phaser.Scale.CENTER_BOTH,
     },
   }

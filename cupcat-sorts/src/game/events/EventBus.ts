@@ -3,6 +3,7 @@ import Phaser from 'phaser'
 export interface Fact {
   emoji: string
   text: string
+  type?: 'fact' | 'correction'
 }
 
 type GameEvents = {

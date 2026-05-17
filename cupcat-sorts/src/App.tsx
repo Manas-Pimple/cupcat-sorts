@@ -25,19 +25,10 @@ export default function App() {
   }, [setPhase])
 
   return (
-    <div className="w-screen h-screen flex items-center justify-center bg-black">
-      {/* CSS containment: fills screen while keeping 3∶4 aspect ratio — no letterbox distortion */}
-      <div
-        className="relative overflow-hidden"
-        style={{
-          width:  'min(100vw, 75vh)',
-          height: 'min(100vh, calc(100vw * 4 / 3))',
-        }}
-      >
-        <PhaserGame />
-        <HUD />
-        <FactBubble />
-      </div>
+    <div className="relative w-screen h-screen overflow-hidden bg-black">
+      <PhaserGame />
+      <HUD />
+      <FactBubble />
     </div>
   )
 }
