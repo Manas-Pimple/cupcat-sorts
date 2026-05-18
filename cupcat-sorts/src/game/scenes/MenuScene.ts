@@ -53,7 +53,7 @@ export class MenuScene extends Phaser.Scene {
     const infoG = this.add.graphics()
     infoG.fillStyle(0x000000, 0.35)
     infoG.fillRoundedRect(W / 2 - infoBarW / 2, infoY, infoBarW, infoBarH, 10)
-    this.add.text(W / 2, infoY + infoBarH / 2, '❤️❤️❤️  3 lives  ·  Sort wrong = Earth explodes 🌍', {
+    this.add.text(W / 2, infoY + infoBarH / 2, '3 lives  ·  Sort wrong = Earth explodes', {
       fontSize: `${Math.round(H * 0.019)}px`, color: '#ffffff',
     }).setOrigin(0.5)
 
