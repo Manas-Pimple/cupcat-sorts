@@ -42,9 +42,7 @@ export class MenuScene extends Phaser.Scene {
     this.add.text(W / 2, H * 0.47, 'Help the eco-cat sort cups into the right bins!', {
       fontSize: `${Math.round(H * 0.022)}px`, color: '#e8f5e9',
     }).setOrigin(0.5)
-    this.add.text(W / 2, H * 0.505, 'Learn real facts about bioplastics & eco-friendly cups.', {
-      fontSize: `${Math.round(H * 0.020)}px`, color: '#c8e6c9',
-    }).setOrigin(0.5)
+
 
     // Info bar
     const infoBarW = W * 0.82
