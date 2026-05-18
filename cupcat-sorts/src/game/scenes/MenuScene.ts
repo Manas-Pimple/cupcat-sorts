@@ -38,10 +38,7 @@ export class MenuScene extends Phaser.Scene {
       strokeThickness: 4,
     }).setOrigin(0.5)
 
-    // Subtitles
-    this.add.text(W / 2, H * 0.47, 'Help the eco-cat sort cups into the right bins!', {
-      fontSize: `${Math.round(H * 0.022)}px`, color: '#e8f5e9',
-    }).setOrigin(0.5)
+   
 
 
     // Info bar
