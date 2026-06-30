@@ -1,4 +1,4 @@
-# CatCup Sorts 🐱♻️
+# CatCup Sorts 
 
 An interactive educational game promoting sustainable packaging disposal for EcoPHA's compostable coffee cups.
 
